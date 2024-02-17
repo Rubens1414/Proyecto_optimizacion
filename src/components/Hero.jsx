@@ -79,7 +79,7 @@ const StyledHero = styled.header`
     }
   }
 `;
-
+//Parte de presentacion de la pagina principal
 export default function Hero() {
   const { name } = useSelector(selectData);
 
@@ -88,10 +88,8 @@ export default function Hero() {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <h1 className="mb-3 display-3 title">{name}</h1>
-            <div className="d-flex align-items-center justify-content-center">
-              <SocialLinks />
-            </div>
+            <h1 className="mb-3 display-3 title">Titulo del proyecto</h1>
+           
           </Col>
           <Col className="d-none d-md-block">
             <img
@@ -99,6 +97,7 @@ export default function Hero() {
               alt="React Logo"
               className="w-75 mx-auto hero-img"
             />
+         
           </Col>
         </Row>
         <Row className="align-items-end down-container">

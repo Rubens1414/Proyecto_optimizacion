@@ -3,31 +3,30 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 // Components
 import Hero from "../components/Hero";
-import AboutMe from "../components/AboutMe";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
+import AboutUs from "../components/AboutUs";
+
+import Description from "../components/Description";
+
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const { name } = useSelector(selectData);
+ 
 
   React.useEffect(
     function () {
-      document.title = `${name} | Portfolio`;
+      document.title = `Proyecto_optimizacion `;
     },
-    [name]
+    []
   );
 
   return (
     <>
       <Hero />
       <main>
-        <AboutMe />
-        <Skills />
-        <Projects />
-        <Contact />
+        <AboutUs />
+        <Description />
+
       </main>
       <BackToTop home={"Home"} />
       <Footer />

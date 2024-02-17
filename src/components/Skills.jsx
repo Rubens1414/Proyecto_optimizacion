@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 import { skillData, resume } from "../data";
 // Components
 import { Button, Col, Container, Row } from "react-bootstrap";
+//Aqui puedes crear diseños para
 import { Title } from "./globalStyledComponents";
 
 export default function Skills() {

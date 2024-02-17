@@ -8,8 +8,8 @@ import { Icon } from "@iconify/react";
 import Logo from "./images/logo.svg";
 
 // Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+import HeroLight from "./images/light.jpg";
+import HeroDark from "./images/dark.jpg";
 // If you change the import names above then you need to change the export names below
 export { HeroLight as Light };
 export { HeroDark as Dark };
@@ -18,7 +18,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "Rubens1414";
 
 // Navbar Logo image
 export const navLogo = undefined;

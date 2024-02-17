@@ -75,21 +75,20 @@ const propTypes = {
 const defaultProps = {
   Logo: Logo,
 };
-
+//aqui se debe de cambiar el contenido de la barra de navegacion
 export default function NavBar({ Logo }) {
   const { theme, isExpanded, closeExpanded, toggleExpanded } = useAppContext();
   const { pathname } = useLocation();
   const navLinks = {
     routes: [
       { id: "1R", name: "Home", route: "/" },
-      { id: "2R", name: "All Projects", route: "/All-Projects" },
+     
     ],
     to: [
       { id: "1T", name: "Home", to: "Home" },
-      { id: "2T", name: "About Me", to: "About" },
-      { id: "3T", name: "Skills", to: "Skills" },
-      { id: "4T", name: "Projects", to: "Projects" },
-      { id: "5T", name: "Contact", to: "Contact" },
+      { id: "2T", name: "About Us", to: "About" },
+      { id: "3T", name: "Description", to: "Description" },
+     
     ],
   };
 
