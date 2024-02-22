@@ -41,7 +41,9 @@ export default function AboutUs() {
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
-                <p>Crear biografia para Rubens</p>
+              <p className="fs-2 text-warning">Rubens Andre Apresa Echeverria</p>
+                <p className="fs-6">
+I am a seventh-semester student studying System Engineering at Universidad del Norte. At 20 years old, I reside in Barranquilla. In my leisure time, I enjoy immersing myself in video games and hitting the gym. Collaboration fuels my passion, as I thrive in team environments. My creativity shines through in all my projects.</p>
            
               </Container>
             </Col>
@@ -61,8 +63,10 @@ export default function AboutUs() {
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
-                <p>Crear biografia para Manuel</p>
-                
+              <p className="fs-2 text-info">Manuel Martinez Rincon</p>
+                <p className="fs-6">
+                I am a student in my sixth semester of systems engineering. Originally from Bogotá, I moved to Barranquilla with my family in 2008 at the age of five. I was enrolled in the school Lyndon B. Johnson where I graduated in 2021. I began pursuing my degree where I currently am, at the Universidad del Norte, the same year. In my personal life I have also pursued other passions, including learning foreign languages, photography and writing.
+                </p>
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
