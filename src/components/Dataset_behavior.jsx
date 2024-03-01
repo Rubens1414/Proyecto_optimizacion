@@ -4,14 +4,15 @@ import { Element } from "react-scroll";
 import { Card, CardBody, CardText, CardTitle, Carousel, Container,Modal,Image, ModalTitle } from 'react-bootstrap';
 import imagen_table from "../images/data_table.png";
 import corre from "../images/corre.png";
+import grafin from "../images/grasw.png";
 
-import bad_a from "../images/bad_a.png";
-import good_a from "../images/good_a.png";
-import react, { useState } from 'react';
+
+import { useState } from 'react';
 
 export default function Dataset_behavior() {
   const [showModal, setShowModal] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
   return (
     <Element name={"Dataset_behavior"} id="Dataset_behavior">
       <Container className="text-center">
@@ -63,7 +64,21 @@ export default function Dataset_behavior() {
             </CardBody>
           </Card>
         </Carousel.Item>
-    
+        <Carousel.Item>
+        <Card className="mx-auto mt-4" style={{ maxWidth: '700px',  marginBottom: '100px' }}>
+          <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+          <CardTitle className='text-center text-info'><h3>Interesting graph</h3></CardTitle>
+          <div className="text-center">
+                <a href="#" onClick={(e) => { e.preventDefault(); setShowModal3(true); }}>
+                    <img src={grafin} alt="table" style={{ width: '650px', height: '360px' }} />
+                </a>
+                </div>
+                <CardText className="text-center">
+                🍎❗ Click on the image to see it better
+                </CardText>
+            </CardBody>
+          </Card>
+        </Carousel.Item>
         {/* Additional Carousel Items */}
       </Carousel>
       <Modal show={showModal} onHide={() => setShowModal(false)} dialogClassName="modal-lg" >
@@ -95,6 +110,27 @@ export default function Dataset_behavior() {
             </p>
         </Modal.Body>
         </Modal>
+        <Modal show={showModal3} onHide={() => setShowModal3(false)} dialogClassName="modal-lg" >
+  
+        <Modal.Header closeButton >
+            <ModalTitle className='text-info text-center '>
+            <h3>Interesting graph</h3>
+            </ModalTitle>
+          
+        </Modal.Header>
+        <Modal.Body>
+            <Image src={grafin} fluid className="img-fluid" style={{ maxHeight: '400px', maxWidth: '750px', margin: '0 auto',display: 'flex', justifyContent: 'center' }} />
+            <p className=' text-center  text-black '>
+            This scatter plot can be useful in building a predictive model to determine whether an apple is good or bad. However, it is not the only tool needed, and there are some limitations to keep in mind. On the positive side, it visually represents the relationship between apple size and weight, which are potentially related to quality, and can identify patterns such as clusters or outliers. 
+          
+            </p>
+            <p className=' text-center  text-black '>
+       
+            A good scatter plot is a useful starting point. 🍎
+            </p>
+        </Modal.Body>
+        </Modal>
+        
     </Element>
   );
 }
