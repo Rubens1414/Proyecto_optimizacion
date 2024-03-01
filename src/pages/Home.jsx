@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 
 import Description from "../components/Description";
+import Dataset_behavior from "../components/Dataset_behavior";
 
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
@@ -26,7 +27,7 @@ export default function Home() {
       <main>
         <AboutUs />
         <Description />
-
+        <Dataset_behavior />
       </main>
       <BackToTop home={"Home"} />
       <Footer />

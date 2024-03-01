@@ -19,14 +19,14 @@ export default function SocialLinks() {
   return (
     <StyledSocialLinks>
       <a
-        href={html_url}
-        aria-label="Check out my GitHub profile."
+        href={'https://github.com/Rubens1414/Proyecto_optimizacion'}
+        aria-label="Check out our repositorie."
         className="link-icons"
       >
         <Icon icon="icomoon-free:github" />
       </a>
       {blog && (
-        <a href={blog} aria-label="External link" className="link-icons">
+        <a href={'https://github.com/Rubens1414/Proyecto_optimizacion'} aria-label="External link" className="link-icons">
           {Blog}
         </a>
       )}

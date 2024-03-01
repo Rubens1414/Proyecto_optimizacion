@@ -10,7 +10,7 @@ import { Light, Dark } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
 import { Spin } from "./globalStyledComponents";
-import SocialLinks from "./SocialLinks";
+import image_icon from "../images/iconM.png";
 
 const StyledHero = styled.header`
   position: relative;
@@ -88,12 +88,12 @@ export default function Hero() {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <h1 className="mb-3 display-3 title">Titulo del proyecto</h1>
+            <h1 className="mb-3 display-3 title">Is this an apple?</h1>
            
           </Col>
           <Col className="d-none d-md-block">
             <img
-              src={Logo}
+              src={image_icon}
               alt="React Logo"
               className="w-75 mx-auto hero-img"
             />

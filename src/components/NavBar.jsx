@@ -7,9 +7,10 @@ import styled from "styled-components";
 // Icons
 import { Icon } from "@iconify/react";
 // Components
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 // Images
 import Logo from "./defaultNavLogo.svg";
+import image_icon from "../images/iconM.png";
 
 // #region styled-components
 const StyledSwitch = styled.label`
@@ -20,12 +21,14 @@ const StyledSwitch = styled.label`
   border-radius: 30px;
   transition: var(--transition);
   border: 2px solid;
+  border-color: #F92417;
 
   /* Hide defualt checkbox */
   input[type="checkbox"] {
     height: 0;
     width: 0;
     opacity: 0;
+  
   }
 
   /* Move span when checked */
@@ -38,8 +41,13 @@ const StyledSwitch = styled.label`
     justify-content: center;
     align-items: center;
     transition: var(--transition);
+   
   }
 `;
+const styleborder = {
+   borderbottom: '1px solid red'
+
+};
 
 const FixedNavSpacer = styled.div`
   height: var(--nav-height);
@@ -88,7 +96,7 @@ export default function NavBar({ Logo }) {
       { id: "1T", name: "Home", to: "Home" },
       { id: "2T", name: "About Us", to: "About" },
       { id: "3T", name: "Description", to: "Description" },
-     
+      { id: "4T", name: "Dataset behavior", to: "Dataset_behavior" },
     ],
   };
 
@@ -103,12 +111,14 @@ export default function NavBar({ Logo }) {
         bg={theme === "light" ? "light" : "dark"}
         variant={theme === "light" ? "light" : "dark"}
         fixed="top"
+        style={{ borderBottom: '2px solid red', borderTop: 'none', borderLeft: 'none', borderRight: 'none' }}
+
       >
         <Container>
           <Navbar.Brand>
             <img
               alt="Logo"
-              src={Logo}
+              src={image_icon}
               width="35"
               height="35"
               className="rounded-circle"

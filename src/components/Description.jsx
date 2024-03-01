@@ -1,161 +1,83 @@
-import styled from "styled-components";
-
-import { Element } from "react-scroll";
-import { Card, CardBody, CardText, CardTitle } from 'react-bootstrap';
-import { Carousel } from "react-bootstrap";
-
-
-// Global Components es mas que nada para darle estilo.
 import { Title } from "./globalStyledComponents";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Element } from "react-scroll";
+import { Card, CardBody, CardText, CardTitle, Carousel, Container } from 'react-bootstrap';
 import imagen_manzana from "../images/manzana.png";
 import imagen_manzanas from "../images/manzanas.png";
 import machine_learning from "../images/machine-learning.png";
 import bad_a from "../images/bad_a.png";
 import good_a from "../images/good_a.png";
 
-
 export default function Description() {
-  const styles = {
-    card: {
-      maxWidth: '1100px',
-      maxHeight: '90vh',
-      paddingBottom: '200px',
-      paddingTop: '-2px',
-      paddingLeft: '20px',
-      paddingRight: '20px',
-      marginBottom: '100px',
-      borderRadius: '50px',
-      borderColor: '#61DAFB',
-      borderWidth: '3px',
-      borderStyle: 'solid',
-      backgroundColor: '#f8f9fa',
-      marginTop: '20px',
-      marginLeft: '20px',
-      marginRight: '120px',
-      marginLeft: '120px',
-    },
-  };
-  const stylesc = {
-    inter: {
-     
-      marginBottom: '100px',
-     
-    },
-  };
-
+ 
   return (
     <Element name={"Description"} id="Description">
       <Container className="text-center">
         <Title>
-          <h2>Description</h2>
-          <div className="underline"></div>
+        <h2>Description</h2>
+        <div className="underline"></div>
         </Title>
       </Container>
-      <Carousel style={stylesc.inter} >
-        <Carousel.Item>
-          <Card style={styles.card} className=" h-75 ">
-            <CardBody>
-            <subTitle className='text-center text-success'>
-             <h3> Which dataset did we choose?</h3>
-         
-            </subTitle>
-              <CardText className="text-center">
-              It is a dataset of different samples where we find different parameters and descriptions of the fruit itself.
-              </CardText>
-            
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className=" mb-2 ">
-                <a href="https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality" target="_blank" rel="noreferrer">
-                <img
-                  src={imagen_manzana}
-                  loading="lazy"
-                  style={{ width: "4rem", height: "4rem" }}
-                />
-                </a> 
-                Click me! :D
-              </div>
-          
-            <cardText>
+      <Carousel
+      prevIcon={<span style={{ color: 'red', fontSize: '4rem', padding: '0.5rem', pointerEvents: 'auto' }}>&#8249;</span>}
+      nextIcon={<span style={{ color: 'red', fontSize: '4rem', padding: '0.5rem', pointerEvents: 'auto' }}>&#8250;</span>}
+      indicatorClassName="custom-indicator"
+      indicatorLabel={(index) => {
+        return <span style={{ backgroundColor: 'red' }}>{index}</span>;
+      }}
 
-            <subTitle className='text-center text-warning'>
-          <h3> What do we plan to do with this dataset?</h3>
-         
-         </subTitle>
-                 
-              </cardText>
-              <div className=" mx-xl-5 pb-3 ">
-              <CardText className="text-center ">
-              This dataset will be used to train an image-based Deep Learning model for binary classification of apple quality.
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                <a href="https://www.w3schools.com/ai/" target="_blank" rel="noreferrer">
-                <img
-                  src={imagen_manzanas}
-                  loading="lazy"
-                  style={{ width: "4rem", height: "4rem" }}
-                />
-                  <img
-                  src={machine_learning}
-                  loading="lazy"
-                  style={{ width: "4rem", height: "4rem" }}
-                />
-                </a>
-              
-              </div>
-              </CardText>
-              </div>
-              <subTitle className='text-center text-info'>
-             <h3>What is our objective?</h3>
-         
-            </subTitle>
+>
+        <Carousel.Item>
+          <Card className="mx-auto mt-4" style={{ maxWidth: '850px',  marginBottom: '100px' }}>
+            <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+              <CardTitle className='text-center text-success'><h3>Which dataset did we choose?</h3></CardTitle>
               <CardText className="text-center">
-              The objective is to develop a model that can analyze and determine whether they are of good or bad quality, based on a set of labeled data.
-              <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-               <div>
-                <img
-                  src={good_a}
-                  loading="lazy"
-                  style={{ width: "4rem", height: "4rem" }}
-                />
-                  <img
-                  src={bad_a}
-                  loading="lazy"
-                  style={{ width: "4rem", height: "4rem" }}
-                />
-                </div>
-                
+              It is a set of data from different samples where we find different parameters and descriptions of a fruit that in this case would be the apple, where they describe different parameters to detect if it is good or not.
+              </CardText>
+              <div className="text-center">
+                <a href="https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality" target="_blank" rel="noreferrer">
+                  <img src={imagen_manzana} className="img-fluid   " alt="Manzana" style={{ maxWidth: '80px', }}/>
+                </a>
+                <p>Click me! :D</p>
               </div>
+              <CardTitle className='text-center text-warning'><h3>What do we plan to do with this dataset?</h3></CardTitle>
+              <CardText className="text-center">
+              This dataset will attempt to train an image-based deep learning model to classify the apple.
               </CardText>
+              <div className="text-center">
+              <a href="https://www.w3schools.com/ai/" target="_blank" rel="noreferrer" >
+                  <img src={imagen_manzanas} className="img-fluid" alt="Manzanas" style={{ maxWidth: '80px', }}/>
+                  <img src={machine_learning} className="img-fluid" alt="Machine Learning"style={{ maxWidth: '80px', }} />
+                </a>
+              </div>
             </CardBody>
+          
           </Card>
+         
         </Carousel.Item>
         <Carousel.Item>
-          <Card style={styles.card}>
-            <CardBody>
-              <cardText>
-                ¿Que contiene el dataset?
-              </cardText>
-              <CardText>
-                El dataset contiene atributos como: el identificador único de la
-                manzana, imágenes RGB de las manzanas, tamaño, peso, dulzura,
-                crujiente, jugosidad, madurez, acidez y la etiqueta de calidad
-                general (buena o mala).
+        <Card className="mx-auto mt-4" style={{ maxWidth: '700px',  marginBottom: '100px' }}>
+          <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+              
+              <CardTitle className='text-center text-info'><h3>What is our objective?</h3></CardTitle>
+              <CardText className="text-center">
+              Our goal is to develop a model that can analyze and determine whether they are of good or poor quality, from a set of labeled data, either giving the required parameters or if possible an image of it.
+                <div className="d-flex justify-content-center">
+                  <img src={good_a} className="img-fluid" alt="Good"  style={{ maxWidth: '80px', }}/>
+                  
+                </div>
+              </CardText>
+              <CardTitle className='text-center text-danger'><h3>What is the purpose of this project?</h3></CardTitle>
+              <CardText className="text-center">
+              The goal of this project is to provide a tool that can help people sort their apples in a more efficient way.(If this is possible, it can be generalized to all fruits)
+                <div className="d-flex justify-content-center">
+                  <img src={bad_a} className="img-fluid" alt="Bad"  style={{ maxWidth: '80px', }}/>
+                </div>
               </CardText>
             </CardBody>
           </Card>
         </Carousel.Item>
-        <Carousel.Item>
-          <Card style={styles.card}>
-            <CardBody>
-              <CardText>
-                Este tipo de modelo tiene aplicaciones potenciales en la industria
-                agrícola, sistemas de control de calidad en la cadena de suministro
-                de alimentos y desarrollo de robots para la cosecha selectiva de
-                manzanas.
-              </CardText>
-            </CardBody>
-          </Card>
-        </Carousel.Item>
-        
+    
+        {/* Additional Carousel Items */}
       </Carousel>
     </Element>
   );

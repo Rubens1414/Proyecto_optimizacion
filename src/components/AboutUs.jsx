@@ -9,6 +9,9 @@ import { Title } from "./globalStyledComponents";
 import perfil from "../images/perfil.png";
 import perfil_kevin from "../images/kevin.jpeg";
 import perfil_manuel from "../images/manuel.jpeg";
+import perfil_german from "../images/German.jpeg";
+import perfil_jose from "../images/Jose.jpeg";
+import perfil_rubens from "../images/Rubens.jpeg";
 const StyledAboutUs = styled.section`
   p {
     font-size: 1.25rem;
@@ -58,7 +61,7 @@ I am a seventh-semester student studying System Engineering at Universidad del N
             <Col className="d-none d-md-block text-center">
             <ContentContainer>
                 <img
-                  src={perfil}   
+                  src={perfil_rubens}   
                   alt="GitHub Avatar"
                   loading="lazy"
                   className="mx-auto rounded-circle"
@@ -94,43 +97,46 @@ I am a seventh-semester student studying System Engineering at Universidad del N
           </Row>
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
+            <p className="fs-2 " style={{color:'purple'}}>Jose Gayon Parra</p>
               <Container>
-                <p>Crear biografia para Jose</p>
+                <p className="fs-6">A student of System Engineering at Universidad del Norte. I was born August 30 in Cartagena, but have lived most of my life in Barranquilla. Some of my hobbies are reading, music, films and drawing. I am a lover of animals and the proud owner of a dog.</p>
                 
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
             <ContentContainer>
                 <img
-                  src={perfil}   
+                  src={perfil_jose}   
                   alt="GitHub Avatar"
                   loading="lazy"
                   className="mx-auto rounded-circle"
                   style={{ width: "15rem", height: "15rem" }}
                 />
-                <p>Rol de la persona</p>
+                <p>Research Scientist 🔍</p>
               </ContentContainer>
            
             </Col>
             
           </Row>
           <Row className="align-items-center mt-5">
+          
             <Col className="d-flex flex-column text-center">
+            <p className="fs-2 " style={{color:'red'}}>German Centanaro Oviedo</p>
               <Container>
-                <p>Crear biografia para German</p>
+                <p className="fs-6"> Systems engineering student in Colombia. I am a person who enjoys learning and understanding new topics about programming and my career. I consider myself a diligent and prepared student, always eager to learn and develop in any area of systems engineering</p>
                 
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
             <ContentContainer>
                 <img
-                  src={perfil}   
+                  src={perfil_german}   
                   alt="GitHub Avatar"
                   loading="lazy"
                   className="mx-auto rounded-circle"
                   style={{ width: "15rem", height: "15rem" }}
                 />
-                <p>Rol de la persona</p>
+                <p>Data Engineer🧠</p>
               </ContentContainer>
             </Col>
             
@@ -140,7 +146,7 @@ I am a seventh-semester student studying System Engineering at Universidad del N
           
               <Container>
                <p className="fs-2 text-success">Kevin Ruiz Espitia</p>
-                <p>Seventh semester student in systems engineering at the University of the North. I am 20 years old and I am from Monteria, thanks to a scholarship I had the opportunity to move from city in search of better opportunity. My hobbies are video games, movies and reading occasionally. I develop as a team and I provide good ideas.</p>
+                <p className="fs-6">Seventh semester student in systems engineering at the University of the North. I am 20 years old and I am from Monteria, thanks to a scholarship I had the opportunity to move from city in search of better opportunity. My hobbies are video games, movies and reading occasionally. I develop as a team and I provide good ideas.</p>
                 
               </Container>
             </Col>
@@ -153,7 +159,7 @@ I am a seventh-semester student studying System Engineering at Universidad del N
                   className="mx-auto rounded-circle"
                   style={{ width: "15rem", height: "15rem" }}
                 />
-                <p>Rol de la persona</p>
+                <p>Data Scientist 🧑‍🔬</p>
               </ContentContainer>
             </Col>
             
