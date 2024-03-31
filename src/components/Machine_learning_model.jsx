@@ -9,7 +9,7 @@ import data_apple from "../images/data_apple_tree.png";
 import roc from "../images/ROC.png";
 import Matriz_c from "../images/Matriz_c.png";
 import appletree from "../images/apple_tree.png";
-import grafin from "../images/grasw.png";
+import gifa from "../images/Apple_gif.gif";
 import { useState } from 'react';
 
 export default function Machine_learning_model() {
@@ -86,6 +86,25 @@ export default function Machine_learning_model() {
                   </CardText>
               </CardBody>
             </Card>
+            <Card className="mx-auto mt-4" style={{ maxWidth: '700px',height:'580px',  marginBottom: '100px' }}>
+            <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+            <CardTitle className='text-center text-info'><h3> Preliminary conclusions  🧠🍎🔥❗</h3></CardTitle>
+          
+                  <CardText className="text-center">
+                  In our preliminary conclusions we can say that our random forest classification model is a good model to predict the quality of apples, since it has an AUC of 0.94 and a good performance in the confounding matrix, which indicates that it is a good model to predict apple quality although it can also show us a score of 0.87 depending on the amount of data that is provided. provide in our cross-validation.
+
+                                
+                    </CardText>
+                    <CardText className="text-center">
+                    This type of model is widely used in data classification and data prediction, as it is a model that is based on several decision trees and voting on the results that came out the most in the trees, in this case a vote for the apple that came out the most in the trees.  This can be applied to different similar data for different fruits or foods.                  
+                    </CardText>
+                    <div className="text-center">
+                    <img src={gifa} alt="table" style={{ width: '250px', height: '200px' }} />
+                    </div>
+                    
+                  
+              </CardBody>
+            </Card>
         
           {/* Additional Carousel Items */}
    
@@ -116,6 +135,11 @@ export default function Machine_learning_model() {
           <Modal.Body>
          
               <Image src={appletree} fluid className="img-fluid" style={{ maxHeight: '400px', maxWidth: '750px', margin: '0 auto', display: 'block' }} />
+              <p className=' text-center  text-black '>
+              As you'll see in the diagram above, the random forest classifier model is a model that is based on several decision trees (in this case apple trees) 
+
+              They train with different data and a vote is made with the results that came out the most in the trees, in this case a vote for the apple that came out the most in the trees.
+              </p>
           </Modal.Body>
           </Modal>
           <Modal show={showModal3} onHide={() => setShowModal3(false)} dialogClassName="modal-lg" >
