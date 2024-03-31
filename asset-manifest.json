@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Proyecto_optimizacion/static/css/main.94739c93.css",
-    "main.js": "/Proyecto_optimizacion/static/js/main.84757cbb.js",
+    "main.js": "/Proyecto_optimizacion/static/js/main.b8beaf2f.js",
     "static/media/light.jpg": "/Proyecto_optimizacion/static/media/light.25fceee3359dcc296957.jpg",
     "static/media/dark.jpg": "/Proyecto_optimizacion/static/media/dark.39dce2ea88ceddef0252.jpg",
+    "static/media/Apple_gif.gif": "/Proyecto_optimizacion/static/media/Apple_gif.ee5d43ed98bc0eacf390.gif",
     "static/media/grasw.png": "/Proyecto_optimizacion/static/media/grasw.03f7e391484f7e0e6193.png",
     "static/media/manuel.jpeg": "/Proyecto_optimizacion/static/media/manuel.80cf507bb373ea511eeb.jpeg",
     "static/media/German.jpeg": "/Proyecto_optimizacion/static/media/German.36ea993ded158a6f4290.jpeg",
@@ -28,10 +29,10 @@
     "static/media/logo.svg": "/Proyecto_optimizacion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Proyecto_optimizacion/index.html",
     "main.94739c93.css.map": "/Proyecto_optimizacion/static/css/main.94739c93.css.map",
-    "main.84757cbb.js.map": "/Proyecto_optimizacion/static/js/main.84757cbb.js.map"
+    "main.b8beaf2f.js.map": "/Proyecto_optimizacion/static/js/main.b8beaf2f.js.map"
   },
   "entrypoints": [
     "static/css/main.94739c93.css",
-    "static/js/main.84757cbb.js"
+    "static/js/main.b8beaf2f.js"
   ]
 }
