@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Proyecto_optimizacion/static/css/main.94739c93.css",
-    "main.js": "/Proyecto_optimizacion/static/js/main.2f476319.js",
+    "main.js": "/Proyecto_optimizacion/static/js/main.84757cbb.js",
     "static/media/light.jpg": "/Proyecto_optimizacion/static/media/light.25fceee3359dcc296957.jpg",
     "static/media/dark.jpg": "/Proyecto_optimizacion/static/media/dark.39dce2ea88ceddef0252.jpg",
     "static/media/grasw.png": "/Proyecto_optimizacion/static/media/grasw.03f7e391484f7e0e6193.png",
@@ -11,22 +11,27 @@
     "static/media/iconM.png": "/Proyecto_optimizacion/static/media/iconM.e0d170ded9fe04a47eb5.png",
     "static/media/Jose.jpeg": "/Proyecto_optimizacion/static/media/Jose.13e3854351a89f168363.jpeg",
     "static/media/data_table.png": "/Proyecto_optimizacion/static/media/data_table.0fd3807fcb6a17a28eee.png",
-    "static/media/kevin.jpeg": "/Proyecto_optimizacion/static/media/kevin.04314e398cdbb5aea3d2.jpeg",
     "service-worker.js": "/Proyecto_optimizacion/service-worker.js",
+    "static/media/kevin.jpeg": "/Proyecto_optimizacion/static/media/kevin.04314e398cdbb5aea3d2.jpeg",
     "static/media/corre.png": "/Proyecto_optimizacion/static/media/corre.59ae1abe6929de622ca0.png",
+    "static/media/Matriz_c.png": "/Proyecto_optimizacion/static/media/Matriz_c.4c081cc1190bf87ac46b.png",
+    "static/media/ROC.png": "/Proyecto_optimizacion/static/media/ROC.b2b2bff56b052dd6c0e0.png",
+    "static/media/bosque.png": "/Proyecto_optimizacion/static/media/bosque.e61c3a80666680c26afb.png",
     "static/media/perfil.png": "/Proyecto_optimizacion/static/media/perfil.5faf09a7795d28bf5a2b.png",
     "static/media/machine-learning.png": "/Proyecto_optimizacion/static/media/machine-learning.f8fb93aedc1b52c7b51e.png",
+    "static/media/apple_tree.png": "/Proyecto_optimizacion/static/media/apple_tree.b528457ef909f53f4bb4.png",
     "static/media/manzana.png": "/Proyecto_optimizacion/static/media/manzana.b49c4c52167082fd0c98.png",
     "static/media/manzanas.png": "/Proyecto_optimizacion/static/media/manzanas.d0b5a1cc5be008798caf.png",
+    "static/media/random-forest.png": "/Proyecto_optimizacion/static/media/random-forest.b58a8abd53bc92c2de00.png",
     "static/media/good_a.png": "/Proyecto_optimizacion/static/media/good_a.d132a04d27eccc7ad73a.png",
     "static/media/defaultNavLogo.svg": "/Proyecto_optimizacion/static/media/defaultNavLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/logo.svg": "/Proyecto_optimizacion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Proyecto_optimizacion/index.html",
     "main.94739c93.css.map": "/Proyecto_optimizacion/static/css/main.94739c93.css.map",
-    "main.2f476319.js.map": "/Proyecto_optimizacion/static/js/main.2f476319.js.map"
+    "main.84757cbb.js.map": "/Proyecto_optimizacion/static/js/main.84757cbb.js.map"
   },
   "entrypoints": [
     "static/css/main.94739c93.css",
-    "static/js/main.2f476319.js"
+    "static/js/main.84757cbb.js"
   ]
 }
