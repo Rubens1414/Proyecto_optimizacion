@@ -97,6 +97,7 @@ export default function NavBar({ Logo }) {
       { id: "2T", name: "About Us", to: "About" },
       { id: "3T", name: "Description", to: "Description" },
       { id: "4T", name: "Dataset behavior", to: "Dataset_behavior" },
+      { id: "5T", name: "Machine learning model", to: "Machine_learning" },
     ],
   };
 
@@ -140,6 +141,8 @@ export default function NavBar({ Logo }) {
                           activeClass="active"
                           className="nav-link"
                           onClick={closeExpanded}
+                          offset={-100} // Ajuste el valor negativo según sea necesario
+
                         >
                           {el.name}
                         </ScrollLink>

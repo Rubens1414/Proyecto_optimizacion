@@ -14,7 +14,7 @@ export default function Dataset_behavior() {
   const [showModal2, setShowModal2] = useState(false);
   const [showModal3, setShowModal3] = useState(false);
   return (
-    <Element name={"Dataset_behavior"} id="Dataset_behavior">
+    <Element name={"Dataset_behavior"} id="dataset_behavior">
       <Container className="text-center">
         <Title>
         <h2>Dataset behavior</h2>
