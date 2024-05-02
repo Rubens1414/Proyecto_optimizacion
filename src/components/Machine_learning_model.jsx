@@ -86,14 +86,19 @@ export default function Machine_learning_model() {
                   </CardText>
               </CardBody>
             </Card>
-            <Card className="mx-auto mt-4" style={{ maxWidth: '700px',height:'580px',  marginBottom: '100px' }}>
+            <Card className="mx-auto mt-4" style={{ maxWidth: '700px',height:'740px',  marginBottom: '100px' }}>
             <CardBody style={{display: 'flex', flexDirection: 'column'}} >
             <CardTitle className='text-center text-info'><h3> Preliminary conclusions  🧠🍎🔥❗</h3></CardTitle>
-          
+                   
                   <CardText className="text-center">
-                  In our preliminary conclusions we can say that our random forest classification model is a good model to predict the quality of apples, since it has an AUC of 0.94 and a good performance in the confounding matrix, which indicates that it is a good model to predict apple quality although it can also show us a score of 0.87 depending on the amount of data that is provided. provide in our cross-validation.
-
-                                
+                  In our preliminary conclusions we can say that our random forest classification model is a good model to predict the quality of apples, since it has an AUC of 0.95 in the 1000 cross-validation iterations that were done and a good performance in the matrix of confusion, which indicates that it is a good model for predicting. quality of the apple although we also analyze different averages of the metrics such as:
+          
+                 <ul className="list-group text-center">
+                      <li className="list-group-item">Accuracy: 0.88</li>
+                      <li className="list-group-item">Precision: 0.87</li>
+                      <li className="list-group-item">Recall: 0.90</li>
+                      <li className="list-group-item">F1-score: 0.88</li>
+                    </ul>
                     </CardText>
                     <CardText className="text-center">
                     This type of model is widely used in data classification and data prediction, as it is a model that is based on several decision trees and voting on the results that came out the most in the trees, in this case a vote for the apple that came out the most in the trees.  This can be applied to different similar data for different fruits or foods.                  
@@ -158,7 +163,7 @@ export default function Machine_learning_model() {
               </p>
               <p className=' text-center  text-black '>
          
-              As you will notice the AUC is 0.94 which indicates that it is a good model, we can also apply the score and it will come out with a good performance 🔍🍎.
+As you will see the AUC is 0.95 in our 1000 iterations that we tested the average of this reflects us that e is a good model , we can also apply the different metrics and it will come out with a good performance 🔍🍎.
               </p>
           </Modal.Body>
           </Modal>
@@ -181,7 +186,7 @@ export default function Machine_learning_model() {
         
             </p>
             <p className=' text-center  text-black '>
-            In our case, the confusion matrix shows us that our model performs well, since most of the predictions are correct. 🍎
+           In our case, the confusion matrix shows us that our model works well, since most predictions in the different iterations had good hits with the actual values. 🍎
             </p>
         </Modal.Body>
         </Modal>
