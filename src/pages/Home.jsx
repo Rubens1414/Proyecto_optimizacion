@@ -8,6 +8,7 @@ import AboutUs from "../components/AboutUs";
 import Description from "../components/Description";
 import Dataset_behavior from "../components/Dataset_behavior";
 import Machine_learning_model from "../components/Machine_learning_model";
+import Neuronal_Network from "../components/Neuronal_Network";
 
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
@@ -30,6 +31,7 @@ export default function Home() {
         <Description />
         <Dataset_behavior />
         <Machine_learning_model />
+        <Neuronal_Network />
       </main>
       <BackToTop home={"Home"} />
       <Footer />

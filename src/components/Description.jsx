@@ -26,9 +26,9 @@ export default function Description() {
       }}
 
 >
-        <Carousel.Item>
-          <Card className="mx-auto mt-4" style={{ maxWidth: '850px',  marginBottom: '100px' }}>
-            <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+        <Carousel.Item >
+        <Card className="mx-auto mt-4" style={{ maxWidth: '850px', height: 'auto', marginBottom: '110px'}}>
+      <CardBody className="d-flex flex-column">
               <CardTitle className='text-center text-success'><h3>Which dataset did we choose?</h3></CardTitle>
               <CardText className="text-center">
               It is a set of data from different samples where we find different parameters and descriptions of a fruit that in this case would be the apple, where they describe different parameters to detect if it is good or not.
@@ -54,9 +54,9 @@ export default function Description() {
           </Card>
          
         </Carousel.Item>
-        <Carousel.Item>
-        <Card className="mx-auto mt-4" style={{ maxWidth: '700px',  marginBottom: '100px' }}>
-          <CardBody style={{display: 'flex', flexDirection: 'column'}} >
+        <Carousel.Item >
+        <Card className="mx-auto mt-4" style={{ maxWidth: '850px', height: 'auto', marginBottom: '150px' }}>
+      <CardBody className="d-flex flex-column">
               
               <CardTitle className='text-center text-info'><h3>What is our objective?</h3></CardTitle>
               <CardText className="text-center">
