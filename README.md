@@ -1,6 +1,6 @@
 # Como utilizar y editar este template:
 
-Este sera nuestra plantilla para montar lo que debamos hacer en el proyecto, esta plantilla es gratuita y es de esta persona:
+Este tamplate fue tomado como guia para realizar nuestra pagina para el proyecto:
 
 ## [Pagina de la persona](https://mshuber1981.github.io/github-react-portfolio-template/#/)
 
