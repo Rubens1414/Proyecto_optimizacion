@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Proyecto_optimizacion/static/css/main.b66e84b5.css",
-    "main.js": "/Proyecto_optimizacion/static/js/main.15e85c92.js",
+    "main.js": "/Proyecto_optimizacion/static/js/main.f293afdc.js",
     "static/media/light.jpg": "/Proyecto_optimizacion/static/media/light.25fceee3359dcc296957.jpg",
     "static/media/dark.jpg": "/Proyecto_optimizacion/static/media/dark.39dce2ea88ceddef0252.jpg",
+    "static/media/trofeito.gif": "/Proyecto_optimizacion/static/media/trofeito.5f11d847de83393e8fa6.gif",
     "static/media/grasw.png": "/Proyecto_optimizacion/static/media/grasw.03f7e391484f7e0e6193.png",
     "static/media/manuel.jpeg": "/Proyecto_optimizacion/static/media/manuel.80cf507bb373ea511eeb.jpeg",
     "static/media/German.jpeg": "/Proyecto_optimizacion/static/media/German.36ea993ded158a6f4290.jpeg",
@@ -30,6 +31,7 @@
     "static/media/manzanas.png": "/Proyecto_optimizacion/static/media/manzanas.d0b5a1cc5be008798caf.png",
     "static/media/random-forest.png": "/Proyecto_optimizacion/static/media/random-forest.b58a8abd53bc92c2de00.png",
     "static/media/conf_r_M.png": "/Proyecto_optimizacion/static/media/conf_r_M.4aae30582d44e24cfb71.png",
+    "static/media/graf_cf.png": "/Proyecto_optimizacion/static/media/graf_cf.8a5be88ddce6adc7815e.png",
     "static/media/ojito.png": "/Proyecto_optimizacion/static/media/ojito.9eaf1993c153a722a8f9.png",
     "static/media/good_a.png": "/Proyecto_optimizacion/static/media/good_a.d132a04d27eccc7ad73a.png",
     "static/media/Apple.gif": "/Proyecto_optimizacion/static/media/Apple.8d388cd91eb81b497fe5.gif",
@@ -37,10 +39,10 @@
     "static/media/logo.svg": "/Proyecto_optimizacion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Proyecto_optimizacion/index.html",
     "main.b66e84b5.css.map": "/Proyecto_optimizacion/static/css/main.b66e84b5.css.map",
-    "main.15e85c92.js.map": "/Proyecto_optimizacion/static/js/main.15e85c92.js.map"
+    "main.f293afdc.js.map": "/Proyecto_optimizacion/static/js/main.f293afdc.js.map"
   },
   "entrypoints": [
     "static/css/main.b66e84b5.css",
-    "static/js/main.15e85c92.js"
+    "static/js/main.f293afdc.js"
   ]
 }
