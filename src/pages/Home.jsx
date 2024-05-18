@@ -12,6 +12,7 @@ import Neuronal_Network from "../components/Neuronal_Network";
 
 import { BackToTop } from "../components/globalStyledComponents";
 import Footer from "../components/Footer";
+import Final_Conclusion from "../components/Final_Conclusion ";
 
 export default function Home() {
  
@@ -32,6 +33,7 @@ export default function Home() {
         <Dataset_behavior />
         <Machine_learning_model />
         <Neuronal_Network />
+        <Final_Conclusion />
       </main>
       <BackToTop home={"Home"} />
       <Footer />

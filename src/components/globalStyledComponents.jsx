@@ -59,6 +59,17 @@ export const Title = styled.div`
     background: var(--clr-primary-5);
     margin: 0 auto 1.5rem auto;
     background: #F92417; 
+  }
+  .underline_yellow{
+    height: 0.25rem;
+    width: 75%;
+    min-width: 3rem;
+    border-radius: 0.25rem;
+    background: var(--clr-primary-5);
+    margin: 0 auto 1.5rem auto;
+    background: #F6E516; 
+  }
+    
 `;
 
 

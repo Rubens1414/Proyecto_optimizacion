@@ -99,6 +99,7 @@ export default function NavBar({ Logo }) {
       { id: "4T", name: "Dataset behavior", to: "Dataset_behavior" },
       { id: "5T", name: "Machine learning Model", to: "Machine_learning" },
       { id: "6T", name: "Neuronal Network Model", to: "Neuronal_Network" },
+      { id: "7T", name: "Final Conclusion", to: "Final_Conclusion" },
     ],
   };
 

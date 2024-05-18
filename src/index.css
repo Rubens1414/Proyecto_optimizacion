@@ -1,0 +1,14 @@
+
+body {
+    overflow-y: scroll;
+    /* Permite el desplazamiento */
+    scrollbar-width: none;
+    /* Para Firefox */
+  }
+  
+  /* Para Webkit (Chrome, Safari, etc.) */
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none;
+    /* Oculta la barra de desplazamiento */
+  }

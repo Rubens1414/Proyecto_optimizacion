@@ -30,6 +30,18 @@ export default function SocialLinks() {
           {Blog}
         </a>
       )}
+      <a
+        href={'https://colab.research.google.com/drive/1n24NH8fSOG1IQJeSn8IKzD01ADre7FC4?usp=sharing'}
+        aria-label="Check out our repositorie."
+        className="link-icons"
+      >
+        <Icon icon="simple-icons:googlecolab"/>
+      </a>
+      {blog && (
+        <a href={'https://colab.research.google.com/drive/1n24NH8fSOG1IQJeSn8IKzD01ADre7FC4?usp=sharing'} aria-label="Google Colab" className="link-icons">
+          {Blog}
+        </a>
+      )}
     </StyledSocialLinks>
   );
 }
