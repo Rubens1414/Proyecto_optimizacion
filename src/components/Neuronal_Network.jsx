@@ -26,7 +26,7 @@ export default function Neuronal_Network() {
       <Element name={"Neuronal_Network"} id="neuronal_network">
         <Container className="text-center">
           <Title>
-          <h2>Neuronal Network Model</h2>
+          <h2>Neural Network Model</h2>
           <div className="underline_red"></div>
           </Title>
         </Container>
